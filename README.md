@@ -24,4 +24,4 @@ Ref: [52nlp](http://www.52nlp.cn/%E4%B8%AD%E8%8B%B1%E6%96%87%E7%BB%B4%E5%9F%BA%E
 
 3. Train 
 
-    python train_word2vec_model.py wiki.en.text wiki.en.text.model wiki.en.text.vector
+        python train_word2vec_model.py wiki.en.text wiki.en.text.model wiki.en.text.vector
