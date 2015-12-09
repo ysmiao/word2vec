@@ -14,7 +14,7 @@ Ref: [52nlp](http://www.52nlp.cn/%E4%B8%AD%E8%8B%B1%E6%96%87%E7%BB%B4%E5%9F%BA%E
 
         PAT_ALPHABETIC = re.compile('.*', re.UNICODE)
 
-    in ~/.local/lib/python2.7/site-packages/gensim/utils.py  with
+    in *~/.local/lib/python2.7/site-packages/gensim/utils.py*  with
 
         PAT_ALPHABETIC = re.compile('((\w|,|;|\.|\?|!|:|\'|\"|-|\\(|\\))+)', re.UNICODE)
     
