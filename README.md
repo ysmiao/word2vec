@@ -8,20 +8,6 @@ Ref: [52nlp](http://www.52nlp.cn/%E4%B8%AD%E8%8B%B1%E6%96%87%E7%BB%B4%E5%9F%BA%E
 
         python process_wiki.py enwiki-latest-pages-articles.xml.bz2 wiki.en.text
 
-To keep some basic punctuations:
-
-replace
-
-    PAT_ALPHABETIC = re.compile('.*', re.UNICODE)
-
-in ~/.local/lib/python2.7/site-packages/gensim/utils.py  with
-
-    PAT_ALPHABETIC = re.compile('((\w|,|;|\.|\?|!|:|\'|\"|-|\\(|\\))+)', re.UNICODE)
-    
-and
-
-    python nltk_tokenizer.py wiki.en.text wiki.en.text.new
-
 3. Train 
 
     python train_word2vec_model.py wiki.en.text wiki.en.text.model wiki.en.text.vector
