@@ -6,7 +6,7 @@ Ref: [52nlp](http://www.52nlp.cn/%E4%B8%AD%E8%8B%B1%E6%96%87%E7%BB%B4%E5%9F%BA%E
 
 2. Prerocess:
 
-    python process_wiki.py enwiki-latest-pages-articles.xml.bz2 wiki.en.text
+        python process_wiki.py enwiki-latest-pages-articles.xml.bz2 wiki.en.text
 
 To keep some basic punctuations:
 
